@@ -10,10 +10,13 @@ int calc_add(int a, int b){
 
 int main(int argc, char *argv[])
 {
+
     int a, b, c = 0;
     a = 3;
     b = 4;
     c = calc_add(a, b);
     std::cout << "Result is: " << c << std::endl;
+    std::cout << "Added new Line!" << std::endl;
+
     return 0;
 }
